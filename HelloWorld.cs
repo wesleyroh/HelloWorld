@@ -1,16 +1,19 @@
-// A Hello World! program in C#.
 using System;
-namespace HelloWorld
+					
+public class Program
 {
-    class Hello 
-    {
-        static void Main() 
-        {
-            Console.WriteLine("Hello World!");
-
-            // Keep the console window open in debug mode.
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
-        }
-    }
+	public static void Main()
+	{
+		
+		String nome;
+		String message = "Welcome to the world of ";
+		
+		Console.Write("What's your name ? \n");
+		nome = Console.ReadLine();
+		
+		Console.WriteLine(message + nome + "!" + "\n");
+		
+		Console.WriteLine("Check back often !");
+		
+	}
 }
